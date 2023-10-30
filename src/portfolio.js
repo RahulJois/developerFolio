@@ -83,6 +83,18 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "si apache-airflow"
     },
     {
+      skillName: "Kubernetes",
+      fontAwesomeClassname: "si kubernetes"
+    },
+    {
+      skillName: "Docker",
+      fontAwesomeClassname: "si docker"
+    },
+    {
+      skillName: "aws",
+      fontAwesomeClassname: "si aws"
+    },
+    {
       skillName: "AWS S3",
       fontAwesomeClassname: "si aws-s3"
     },
@@ -103,40 +115,24 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "si mysql"
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      skillName: "Ansible",
+      fontAwesomeClassname: "si ansible"
+    }, 
+    {
+      skillName: "FastAPI",
+      fontAwesomeClassname: "si fastapi"
+    }, 
+    {
+      skillName: "Grafana",
+      fontAwesomeClassname: "si grafana"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "Jenkins",
+      fontAwesomeClassname: "si jenkins"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "Groovy",
+      fontAwesomeClassname: "si apachegroovy"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -214,7 +210,7 @@ const workExperiences = {
       role: "Graduate Teaching Assistant",
       company: "UCI",
       companylogo: require("./assets/images/uci_icslogo.jpeg"),
-      date: "Sep 2022 – Dec 2022",
+      date: "Jan 2023 – Jun 2023",
       desc: "Worked as Teaching Assistant for Introduction to Programming ICS 31 and ICS 32",
       descBullets: [
         "Developed algorithms to correlate anomalies in network switches with wireless clients, aiming to pinpoint the root causes of network issues.",
@@ -225,7 +221,7 @@ const workExperiences = {
       role: "Reader",
       company: "UCI",
       companylogo: require("./assets/images/uci_englogo.png"),
-      date: "Jan 2023 – Jun 2023",
+      date: "Sep 2022 – Dec 2022",
       desc: "Graduate reader for EECS 144 - Antenna Design for Wireless Communication Links course",
       descBullets: [
         "Responsible for grading assignments and exams.",
@@ -312,6 +308,20 @@ const achievementSection = {
     "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
   achievementsCards: [
+    {
+      title: "AWS Certified Solutions Architect - Associate",
+      subtitle:
+        "Passed the SAA-CO2 exam with a score of 833.",
+      image: require("./assets/images/aws_saa.png"),
+      imageAlt: "AWS Solutions Architect",
+      footerLink: [
+        {
+          name: "Certification Link",
+          url: "https://www.credly.com/badges/aad86c43-115b-467a-b9f0-fc21770fade5/public_url"
+        }
+
+      ]
+    },
     {
       title: "Aruba Town Hall Award",
       subtitle:
